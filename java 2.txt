@@ -1,0 +1,30 @@
+// Save this file exactly as Main.java
+
+// 1. Define the Car object class
+class Car {
+    // Private fields (Encapsulation)
+    private String brand;
+    private int year;
+
+    // Constructor to initialize the object
+    public Car(String brand, int year) {
+        this.brand = brand;
+        this.year = year;
+    }
+
+    // Public method to display car details
+    public void displayInfo() {
+        System.out.println("Car Details: " + year + " " + brand);
+    }
+}
+
+// 2. Main class containing the execution entry point
+public class Main {
+    public static void main(String[] args) {
+        // Create an instance (object) of the Car class
+        Car myCar = new Car("Toyota", 2025);
+        
+        // Call the method on the object
+        myCar.displayInfo();
+    }
+}
