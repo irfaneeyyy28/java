@@ -4,11 +4,7 @@ public class LoopsAndConditions {
         int maxCount = 5;
         String message = "Current count: ";
 
-        // Simple for-loop execution
-        for (int i = 1; i <= maxCount; i++) {
-            // Conditional if-else statement
-            if (i % 2 == 0) {
-                System.out.println(message + i + " (Even)");
+                       System.out.println(message + i + " (Even)");
             } else {
                 System.out.println(message + i + " (Odd)");
             }
